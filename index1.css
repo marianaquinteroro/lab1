@@ -1,0 +1,161 @@
+body {
+
+    background-image: url(plant-wallpaper.jpg);
+    background-color: darkslategrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.card {
+
+    background-color: white;
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+
+}
+
+
+h1, h2, p, a{
+
+    font-family: "Rubik", sans-serif;
+
+}
+
+h1{
+
+    margin-left: 40px;
+    text-align: center;
+    padding-right: 45px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    
+
+}
+
+h2 {
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+
+.text_square{
+
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 35px;
+    
+    
+}
+
+img {
+    
+    width: 850px;
+    height: 600px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.input-area {
+
+    display: flex;
+    position: relative;
+    width: 300px;  
+    padding: 5px; 
+    margin-left: 26px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#plant-profile {
+
+    width: 120px;
+    height: 120px;
+    margin-left: 105px;
+    border-radius: 50%;
+    background-color: purple;
+    
+
+}
+
+button {
+
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 5px ;
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+
+
+}
+
+.material-symbols-outlined {
+
+    color: darkslategray;
+    margin-top: 4px;
+    margin-left: 5px;
+    
+
+
+}
+
+a{
+
+    margin-left: 30px;
+
+}
+
+.card-text {    
+
+    width: 350px;
+    height: 650px;
+
+
+}
+
+.front-img {
+
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    left: 310px;
+    bottom: -80px;
+    transform: rotate(-8deg);
+
+
+}
+
+#front-arrow {
+
+    left: 110px;
+    width: 150px;
+    height: 150px;
+    bottom: 10px;
+    transform: rotate(20deg);
+
+
+}
